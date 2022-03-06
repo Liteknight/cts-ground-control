@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CalgaryToSpace Telemetry Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen"/>
+</head>
+<body>
+    <div class ="row">
+        <div class="col-md-4">
+            <h1> DHT Temperature</h1>
+            <p1 id="DHTtemp"></p1>
+        </div>
+        <div class="col-md-4">
+            <h1>Humidity</h1>
+            <p1 id="Humid"></p1>
+        </div>
+        <div class="col-md-4">
+            <h1>Thermistor</h1>
+            <p1 id="Therm"></p1>
+        </div>
+        <div class="col-md-4">
+            <h1>Sound Sensor</h1>
+            <p1 id="Soundy"></p1>
+        </div>
+        <div class="col-md-4">
+            <h1>Ultrasonic Sensor</h1>
+            <p1 id="usonic"></p1>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="navbar">
+            <img src="ctsv2.png" width= "1300" height="650" class="logo">
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>CTS SAT I - LIVE DATA TRACKING TEST</h1>
+    </div>
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
